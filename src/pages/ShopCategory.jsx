@@ -1,18 +1,18 @@
 import React, { useContext } from 'react'
 import '../pages/Css/ShopCategory.css'
-import { shopContext } from '../context/ShopContext';
+import {ShopContext } from '../context/ShopContext';
 import dropdown_icon from '../components/Assets/dropdown_icon.png'
 import Item from '../components/Items/Item'
 
 function ShopCategory(props) {
-  const {all_product} =useContext(shopContext);
+  const { all_product } = useContext(ShopContext);
 
   return (
     <div>
       <div className="shop-category">
         <img
           src={props.banner}
-          alt="baneer image"
+          alt="baneer"
           className="shopcategory-banner"
         />
         <div className="shopcategory-indexsort">
@@ -20,7 +20,7 @@ function ShopCategory(props) {
             <span>Showing 1 - 12</span> Out of 36 products
           </p>
           <div className="shopcategory-sort">
-            Sort by <img src={dropdown_icon} />
+            Sort by <img src={dropdown_icon} alt='icon' />
           </div>
         </div>
 
