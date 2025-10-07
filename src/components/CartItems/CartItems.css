@@ -30,3 +30,15 @@
 height: 60px;
     
 }
+.cartitem-remove-icon
+{
+    width: 15px;
+    margin: 0px 40px;
+    cursor: pointer;
+}
+.cartitems-quantity
+{
+    width: 60px;
+    height: 40px;
+    border: 2px solid #e2e2e2;
+}
