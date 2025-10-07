@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://your-username.github.io/Ecommerce",
+  "homepage": "https://adhikaryadarsha-ui.github.io/Ecommerce",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
